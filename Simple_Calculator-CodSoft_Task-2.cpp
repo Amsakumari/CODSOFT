@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* possible input states */
+    /* Possible input states */
     typedef enum { END, ADD, SUB, MUL, DIV } choice_t;
     while (true) {
         std::cout << "Enter 1st operand: ";
